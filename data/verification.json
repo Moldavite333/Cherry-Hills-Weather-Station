@@ -6,16 +6,62 @@
     "elevationFt": 5423,
     "tz": "America/Denver"
   },
-  "updatedAt": null,
-  "currentStation": null,
-  "collector": {
-    "state": "starting",
-    "lastAttempt": null,
-    "lastPredictionCapture": null,
-    "lastObservation": null,
-    "modelFeeds": 0,
-    "nwsForecast": false,
-    "notes": []
+  "updatedAt": "2026-10-28T12:09:44.061Z",
+  "currentStation": {
+    "id": "KAPA",
+    "name": "Denver - Centennial Airport",
+    "distanceKm": 12.1,
+    "elevationFt": 5869,
+    "elevationDifferenceFt": 446,
+    "score": 20.74837246718517
   },
-  "records": []
+  "collector": {
+    "state": "running",
+    "lastAttempt": "2026-10-28T12:09:44.061Z",
+    "lastPredictionCapture": "2026-10-28T12:09:44.061Z",
+    "lastObservation": "2026-10-28T11:45:00.000Z",
+    "modelFeeds": 10,
+    "nwsForecast": true,
+    "notes": [
+      "Measurements are from a nearby station, NOT the house."
+    ]
+  },
+  "records": [
+    {
+      "issuedAt": "2026-10-28T12:00:00.000Z",
+      "capturedAt": "2026-10-28T12:09:44.061Z",
+      "validAt": "2026-10-29T12:00:00.000Z",
+      "localHour": "2026-10-29T06:00",
+      "leadHours": 24,
+      "forecastTempF": 39.5,
+      "modelCount": 9,
+      "sourceCount": 10,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-10-28T12:00:00.000Z",
+      "capturedAt": "2026-10-28T12:09:44.061Z",
+      "validAt": "2026-10-30T12:00:00.000Z",
+      "localHour": "2026-10-30T06:00",
+      "leadHours": 48,
+      "forecastTempF": 43.8,
+      "modelCount": 8,
+      "sourceCount": 9,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-10-28T12:00:00.000Z",
+      "capturedAt": "2026-10-28T12:09:44.061Z",
+      "validAt": "2026-10-31T12:00:00.000Z",
+      "localHour": "2026-10-31T06:00",
+      "leadHours": 72,
+      "forecastTempF": 43.8,
+      "modelCount": 7,
+      "sourceCount": 8,
+      "nwsIncluded": true,
+      "status": "pending"
+    }
+  ]
 }
