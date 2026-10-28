@@ -1,12 +1,20 @@
 {
-  "name": "Cherry Hills Village Weather Center",
+  "name": "Cherry Hills Village Weather",
   "short_name": "CHV Weather",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0b1117",
-  "theme_color": "#101820",
+  "background_color": "#071016",
+  "theme_color": "#081117",
   "icons": [
-    {"src":"icon-192.png","sizes":"192x192","type":"image/png"},
-    {"src":"icon-512.png","sizes":"512x512","type":"image/png"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }

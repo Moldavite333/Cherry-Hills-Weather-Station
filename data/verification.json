@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "location": {
+    "lat": 39.6376,
+    "lon": -104.9481,
+    "elevationFt": 5423,
+    "tz": "America/Denver"
+  },
+  "updatedAt": null,
+  "currentStation": null,
+  "collector": {
+    "state": "starting",
+    "lastAttempt": null,
+    "lastPredictionCapture": null,
+    "lastObservation": null,
+    "modelFeeds": 0,
+    "nwsForecast": false,
+    "notes": []
+  },
+  "records": []
+}
