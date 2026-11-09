@@ -6,7 +6,7 @@
     "elevationFt": 5423,
     "tz": "America/Denver"
   },
-  "updatedAt": "2026-11-09T06:42:51.700Z",
+  "updatedAt": "2026-11-09T19:52:45.862Z",
   "currentStation": {
     "id": "KAPA",
     "name": "Denver - Centennial Airport",
@@ -17,9 +17,9 @@
   },
   "collector": {
     "state": "running",
-    "lastAttempt": "2026-11-09T06:42:51.700Z",
-    "lastPredictionCapture": "2026-11-09T06:42:51.700Z",
-    "lastObservation": "2026-11-09T06:30:00.000Z",
+    "lastAttempt": "2026-11-09T19:52:45.862Z",
+    "lastPredictionCapture": "2026-11-09T19:52:45.862Z",
+    "lastObservation": "2026-11-09T19:35:00.000Z",
     "modelFeeds": 10,
     "nwsForecast": true,
     "notes": [
@@ -2084,7 +2084,18 @@
       "modelCount": 7,
       "sourceCount": 8,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-09T16:00:00.000Z",
+        "tempF": 57.2,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": -7.2
     },
     {
       "issuedAt": "2026-11-06T23:00:00.000Z",
@@ -2235,7 +2246,18 @@
       "modelCount": 7,
       "sourceCount": 8,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-09T12:53:00.000Z",
+        "tempF": 37,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": 3.8
     },
     {
       "issuedAt": "2026-11-07T13:00:00.000Z",
@@ -2282,7 +2304,18 @@
       "modelCount": 7,
       "sourceCount": 8,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-09T19:00:00.000Z",
+        "tempF": 68,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": -2.2
     },
     {
       "issuedAt": "2026-11-07T19:00:00.000Z",
@@ -2353,7 +2386,18 @@
       "modelCount": 8,
       "sourceCount": 9,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-09T09:53:00.000Z",
+        "tempF": 39.9,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": 2.4
     },
     {
       "issuedAt": "2026-11-08T10:00:00.000Z",
@@ -2389,7 +2433,18 @@
       "modelCount": 8,
       "sourceCount": 9,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-09T16:55:00.000Z",
+        "tempF": 60.8,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": -1.6
     },
     {
       "issuedAt": "2026-11-08T17:00:00.000Z",
@@ -2482,6 +2537,42 @@
       "localHour": "2026-11-11T23:00",
       "leadHours": 72,
       "forecastTempF": 43.8,
+      "modelCount": 7,
+      "sourceCount": 8,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-09T19:00:00.000Z",
+      "capturedAt": "2026-11-09T19:52:45.862Z",
+      "validAt": "2026-11-10T19:00:00.000Z",
+      "localHour": "2026-11-10T12:00",
+      "leadHours": 24,
+      "forecastTempF": 65.1,
+      "modelCount": 8,
+      "sourceCount": 9,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-09T19:00:00.000Z",
+      "capturedAt": "2026-11-09T19:52:45.862Z",
+      "validAt": "2026-11-11T19:00:00.000Z",
+      "localHour": "2026-11-11T12:00",
+      "leadHours": 48,
+      "forecastTempF": 60.8,
+      "modelCount": 7,
+      "sourceCount": 8,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-09T19:00:00.000Z",
+      "capturedAt": "2026-11-09T19:52:45.862Z",
+      "validAt": "2026-11-12T19:00:00.000Z",
+      "localHour": "2026-11-12T12:00",
+      "leadHours": 72,
+      "forecastTempF": 65.1,
       "modelCount": 7,
       "sourceCount": 8,
       "nwsIncluded": true,
