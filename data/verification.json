@@ -6,7 +6,7 @@
     "elevationFt": 5423,
     "tz": "America/Denver"
   },
-  "updatedAt": "2026-11-14T01:28:13.911Z",
+  "updatedAt": "2026-11-14T10:32:58.913Z",
   "currentStation": {
     "id": "KAPA",
     "name": "Denver - Centennial Airport",
@@ -17,10 +17,10 @@
   },
   "collector": {
     "state": "running",
-    "lastAttempt": "2026-11-14T01:28:13.911Z",
-    "lastPredictionCapture": "2026-11-14T01:28:13.911Z",
-    "lastObservation": "2026-11-14T00:53:00.000Z",
-    "modelFeeds": 10,
+    "lastAttempt": "2026-11-14T10:32:58.913Z",
+    "lastPredictionCapture": "2026-11-14T10:32:58.913Z",
+    "lastObservation": "2026-11-14T10:00:00.000Z",
+    "modelFeeds": 0,
     "nwsForecast": true,
     "notes": [
       "Measurements are from a nearby station, NOT the house."
@@ -3050,7 +3050,18 @@
       "modelCount": 7,
       "sourceCount": 8,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-14T06:00:00.000Z",
+        "tempF": 39.2,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": 4.9
     },
     {
       "issuedAt": "2026-11-11T17:00:00.000Z",
@@ -3414,6 +3425,42 @@
       "forecastTempF": 53.9,
       "modelCount": 7,
       "sourceCount": 8,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-14T10:00:00.000Z",
+      "capturedAt": "2026-11-14T10:32:58.913Z",
+      "validAt": "2026-11-15T10:00:00.000Z",
+      "localHour": "2026-11-15T03:00",
+      "leadHours": 24,
+      "forecastTempF": 36,
+      "modelCount": 0,
+      "sourceCount": 1,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-14T10:00:00.000Z",
+      "capturedAt": "2026-11-14T10:32:58.913Z",
+      "validAt": "2026-11-16T10:00:00.000Z",
+      "localHour": "2026-11-16T03:00",
+      "leadHours": 48,
+      "forecastTempF": 34,
+      "modelCount": 0,
+      "sourceCount": 1,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-14T10:00:00.000Z",
+      "capturedAt": "2026-11-14T10:32:58.913Z",
+      "validAt": "2026-11-17T10:00:00.000Z",
+      "localHour": "2026-11-17T03:00",
+      "leadHours": 72,
+      "forecastTempF": 36,
+      "modelCount": 0,
+      "sourceCount": 1,
       "nwsIncluded": true,
       "status": "pending"
     }
