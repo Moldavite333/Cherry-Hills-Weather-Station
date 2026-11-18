@@ -6,7 +6,7 @@
     "elevationFt": 5423,
     "tz": "America/Denver"
   },
-  "updatedAt": "2026-11-18T11:50:13.413Z",
+  "updatedAt": "2026-11-18T20:36:55.876Z",
   "currentStation": {
     "id": "KAPA",
     "name": "Denver - Centennial Airport",
@@ -17,10 +17,10 @@
   },
   "collector": {
     "state": "running",
-    "lastAttempt": "2026-11-18T11:50:13.413Z",
-    "lastPredictionCapture": "2026-11-18T11:50:13.413Z",
-    "lastObservation": "2026-11-18T11:30:00.000Z",
-    "modelFeeds": 0,
+    "lastAttempt": "2026-11-18T20:36:55.876Z",
+    "lastPredictionCapture": "2026-11-18T20:36:55.876Z",
+    "lastObservation": "2026-11-18T20:15:00.000Z",
+    "modelFeeds": 10,
     "nwsForecast": true,
     "notes": [
       "Measurements are from a nearby station, NOT the house."
@@ -3947,7 +3947,18 @@
       "modelCount": 5,
       "sourceCount": 6,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-18T16:00:00.000Z",
+        "tempF": 50,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": -1.8
     },
     {
       "issuedAt": "2026-11-15T22:00:00.000Z",
@@ -4098,7 +4109,18 @@
       "modelCount": 7,
       "sourceCount": 8,
       "nwsIncluded": true,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-18T19:05:00.000Z",
+        "tempF": 55.4,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": -0.9
     },
     {
       "issuedAt": "2026-11-16T19:00:00.000Z",
@@ -4169,7 +4191,18 @@
       "modelCount": 8,
       "sourceCount": 8,
       "nwsIncluded": false,
-      "status": "pending"
+      "status": "verified",
+      "observation": {
+        "time": "2026-11-18T16:00:00.000Z",
+        "tempF": 50,
+        "stationId": "KAPA",
+        "stationName": "Denver - Centennial Airport",
+        "stationElevationFt": 5869,
+        "stationElevationDifferenceFt": 446,
+        "stationDistanceKm": 12.1,
+        "kind": "nearby NWS station (not house)"
+      },
+      "errorF": -3.4
     },
     {
       "issuedAt": "2026-11-17T16:00:00.000Z",
@@ -4264,6 +4297,42 @@
       "forecastTempF": 33,
       "modelCount": 0,
       "sourceCount": 1,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-18T20:00:00.000Z",
+      "capturedAt": "2026-11-18T20:36:55.876Z",
+      "validAt": "2026-11-19T20:00:00.000Z",
+      "localHour": "2026-11-19T13:00",
+      "leadHours": 24,
+      "forecastTempF": 52.6,
+      "modelCount": 8,
+      "sourceCount": 9,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-18T20:00:00.000Z",
+      "capturedAt": "2026-11-18T20:36:55.876Z",
+      "validAt": "2026-11-20T20:00:00.000Z",
+      "localHour": "2026-11-20T13:00",
+      "leadHours": 48,
+      "forecastTempF": 59.5,
+      "modelCount": 7,
+      "sourceCount": 8,
+      "nwsIncluded": true,
+      "status": "pending"
+    },
+    {
+      "issuedAt": "2026-11-18T20:00:00.000Z",
+      "capturedAt": "2026-11-18T20:36:55.876Z",
+      "validAt": "2026-11-21T20:00:00.000Z",
+      "localHour": "2026-11-21T13:00",
+      "leadHours": 72,
+      "forecastTempF": 44.6,
+      "modelCount": 7,
+      "sourceCount": 8,
       "nwsIncluded": true,
       "status": "pending"
     }
